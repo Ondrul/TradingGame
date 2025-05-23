@@ -1,0 +1,37 @@
+{
+  "normal": {
+    "chance": 10,
+    "buy_discount": 1,
+    "sell_penalty": 1,
+    "market_open": true,
+    "event_text": "Dnes se nic nestalo."
+  },
+  "cheap_buy": {
+    "chance": 3,
+    "buy_discount": 0.8,
+    "sell_penalty": 1,
+    "market_open": true,
+    "event_text": "Dnes můžeš nakupovat o 20% levněji."
+  },
+  "bad_sell": {
+    "chance": 3,
+    "buy_discount": 1,
+    "sell_penalty": 0.8,
+    "market_open": true,
+    "event_text": "Dnes můžeš prodávat jen 20% pod cenou."
+  },
+  "market_closed": {
+    "chance": 2,
+    "buy_discount": 1,
+    "sell_penalty": 1,
+    "market_open": false,
+    "event_text": "Dnes je zavřený trh. Nemůžeš nakupovat ani prodávat."
+  },
+  "black_friday": {
+    "chance": 1,
+    "buy_discount": 0.2,
+    "sell_penalty": 1,
+    "market_open": true,
+    "event_text": "Dnes je černý pátek."
+  }
+}
